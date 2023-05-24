@@ -21,5 +21,5 @@ maximum_number(arr1)
 minimum_number(arr1)
 
 
-
+#gets maximum and minimum in an array
         
