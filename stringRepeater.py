@@ -6,3 +6,6 @@ def repeat_str(repeat, string):
 
 print(repeat_str(5,"hello"))
         
+
+
+#repeats string for the specified amounts of times put as the first parameter
