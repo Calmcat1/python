@@ -17,4 +17,4 @@ def count_positives_sum_negatives(arr):
 
 print(count_positives_sum_negatives([]))
 
-#counts positves, returns sum of count and sums up negatives to give and arrat with both sums
+             

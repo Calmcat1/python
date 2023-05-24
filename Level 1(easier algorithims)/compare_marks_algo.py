@@ -30,6 +30,3 @@ yourPoints = 3
 
 
 print(better_than_average(marksArr,yourPoints))
-
-
-#algorithim compares the average and your marks and finds whether you are better than average
