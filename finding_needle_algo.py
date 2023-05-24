@@ -14,3 +14,5 @@ print(find_needle([2,4,6,7,"needle"]))
 
 array = []
 
+
+#finds needle in array
