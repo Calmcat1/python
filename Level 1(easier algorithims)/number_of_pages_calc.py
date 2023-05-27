@@ -1,5 +1,5 @@
 def paperwork(n, m):
-    if n < 0 or n < 0:
+    if n < 0 or m < 0:
         returnval = 0
     else:
         returnval = n * m
