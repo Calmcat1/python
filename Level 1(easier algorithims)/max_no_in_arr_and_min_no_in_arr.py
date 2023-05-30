@@ -16,7 +16,7 @@ def minimum_number(arr):
         
   
 
-arr1= [1,2,3,4,5,0.5,2]
+arr1= [5,10,15,202,20]
 maximum_number(arr1)
 minimum_number(arr1)
 
