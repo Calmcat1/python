@@ -1,12 +1,19 @@
 def expanded_form(num):
-    n = len(str(num))
-    separation = 0
-    for i in range(n):
-        separation = str(10 **(n-1))
-        separation2 = str(10 **(n-2))
+    stringifiedNum = str(num)
+    n = len(stringifiedNum)
+    output = ""
+    decrementCounter = 0
+    for i in stringifiedNum:
+        decrementCounter += 1
+        output += str(int(i) * (10 ** (n-decrementCounter))) + " + "
+        
+        
 
-    return separation
+    return output[0: len(output)-2]
 
 
-print(expanded_form(21000))
+print(expanded_form(123456))
+
+
+#function takes in a number and returns it as a separated value(addition of its place values)
         
