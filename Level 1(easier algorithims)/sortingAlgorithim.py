@@ -1,18 +1,15 @@
 def numberSorter(arr):
-  max = arr[0]
+  n = len(arr)
   sortedArr = []
-  for i in arr:
-    if max < i:
-      max = i
-      sortedArr.append(max)
-      arr.remove(max)
-      
-  return sortedArr
-         
+
+  for i in range(n):
+   
 
 
+print(numberSorter([1,4,6,7,2]))
 
-print(numberSorter([200,4,150,3,20,18]))
+
+  
 
 
         
