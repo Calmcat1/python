@@ -4,4 +4,7 @@ def longest_consec(strarr, k):
     print(strarr[i])
 
 
-longest_consec(["name", "is", "one", "two", "fours"],1)
+longest_consec(["name", "is", "one", "two", "fours"])
+
+
+#t/N need to get a description of this problem rq

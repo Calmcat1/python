@@ -2,7 +2,12 @@ def numberSorter(arr):
   n = len(arr)
   sortedArr = []
 
-  for i in range(n):
+  for i in arr:
+    sortedArr.append(arr[0])
+    if i in sortedArr > i:
+      sortedArr.insert(i)
+      continue
+  return sortedArr
    
 
 

@@ -1,6 +1,6 @@
 def fake_bin(x):
   for char in x:
-    print(char)
+    format(char, .)
       
 
   

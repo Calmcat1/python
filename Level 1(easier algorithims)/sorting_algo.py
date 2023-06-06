@@ -1,7 +1,11 @@
 def largest_2_smallest(arr):
     newArr = []
-    max = 0
     for num in arr:
+        if num > num in newArr:
+            continue
+        else:
+            newArr.append(num)
+    return newArr
       
 
 

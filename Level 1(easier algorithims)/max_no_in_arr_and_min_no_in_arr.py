@@ -12,6 +12,8 @@ def minimum_number(arr):
          minimum = i
     print(minimum)
 
+    #gets minimum and maximum in the list it is fed
+
 
         
   
