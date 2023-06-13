@@ -10,40 +10,48 @@ class binaryTree:
     
     root = None
     
-    def addNode(self,key):
-        if self.root == None:
-            self.root = node(key)
+    def insertNode(self,key):
+        self.root  = self.insertNodeHelper(key,self.root)
+        return self.root.key, self.root.left , self.root.right
+
+    def insertNodeHelper(self, key, newnode):
+        if newnode == None:
+            newnode = node(key)
+            return newnode
+        elif newnode.key > key:
+            newnode.left = self.insertNodeHelper(key,newnode.left)
         else:
-            if self.root.key < key:
-                self.root.right = node(key)
-            elif self.root.key > key:
-                self.root.left = node(key)
-        return f'rootnode: {self.root.key}', f'rightchildnode: {self.root.right}', f'leftchildnode: {self.root.left}'
-    
-    def searchNode(self,key):
-        if key == self.root.key:
-            return f"{key} is present in the tree"
-        else:
-            return f"{key} is not present in the tree"
-    
+            newnode.right = self.insertNodeHelper(key,newnode.right)
+        return newnode
+
     def displayNode(self):
-        print(self.root.key)
+        pass
   
-        
-        
     
+    def displayNodeHelper(self):
+       pass
     
-  
-binaryTree2 = binaryTree()
+    def searchNode():
+        pass
+    
+    def searchNodeHelper():
+        pass
+    
+    def deleteNode():
+        pass
+     
 
-binaryTree2.addNode(13)
-binaryTree2.addNode(26)
-print(binaryTree2.addNode(9))
 
 
-print(binaryTree2.searchNode(13))
 
-binaryTree2.displayNode()
+newBinaryTree = binaryTree()
+
+print(newBinaryTree.insertNode(5))
+print(newBinaryTree.insertNode(8))
+print(newBinaryTree.insertNode(3))
+print(newBinaryTree.insertNode(80))
+
+
 
 
 
