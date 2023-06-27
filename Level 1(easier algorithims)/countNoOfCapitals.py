@@ -1,0 +1,2 @@
+def countable(string):
+    return 
