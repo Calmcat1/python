@@ -8,5 +8,5 @@ def series_num(n):
     return series + oneDigit
 
 
-print(series_num(0))
+print(series_num(2))
         
