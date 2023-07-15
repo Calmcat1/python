@@ -1,5 +1,5 @@
 def bouncing_ball(h, bounce, window):
-  counter = 0
+  counter = 1
   windowF = float(window)
   bounceF = float(bounce)
 
@@ -9,9 +9,7 @@ def bouncing_ball(h, bounce, window):
       counter += 1
       print(h)
   else:
-    return -1
- 
-  
+    return -1 
   return counter
     
       

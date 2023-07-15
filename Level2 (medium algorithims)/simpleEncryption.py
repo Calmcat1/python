@@ -11,8 +11,7 @@ def encrypt(text, n):
           else:
               evenind += text[i]
           output = oddind + evenind
-      result = encrypt(output,i)
-    return result
+    return output
     
 
 
